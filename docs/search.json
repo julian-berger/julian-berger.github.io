@@ -4,11 +4,32 @@
     "href": "index.html",
     "title": "Julian Berger",
     "section": "",
-    "text": "This content appears below the formatted about page content.\nBelow?"
+    "text": "I design system to boost human decision making in complex problems. These systems rely on collective intelligence, machine learning and anything in-between. Check out my projects here.\nI also work as a freelance data scientist and machine learning engineer mainly focused on interpretable artificial intelligence. If you want to know more, shoot me an email."
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
+    "title": "website",
+    "section": "",
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Julian Berger",
+    "section": "Education",
+    "text": "Education\nUniversidade Catolica Portuguesa | Lisbon , Portugal -MA in Psychology in Business and Economics | 2019 - 2021\nZeppelin Universität | Friedrichshafen, Germany\nB.A in Politics, Administration and International Relations | 2014 - 2018"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Julian Berger",
+    "section": "Experience",
+    "text": "Experience\nSelf Employed | Data Scientist and ML Engineer | 2019 - present\nBwConsulting | Consultant | 2018 - 2019"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
     "title": "website",
     "section": "",
     "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"

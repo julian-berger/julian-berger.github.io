@@ -2,7 +2,7 @@
 title: "Julian Berger"
 about:
   template: broadside
-  image: "12182506_10208346678253144_2115503088060456486_o.jpg"
+  image: "IMG_1141.jpg"
   image-shape: round
   links:
     - icon: envelope
@@ -16,33 +16,20 @@ about:
       href: https://twitter.com/officialberger
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/julian-berger
     - icon: linkedin
       text: LinkedIn
       url:  https://linkedin.com/in/julian-berger-aa847b10a
 ---
 
-:::{#hero-heading}
 
-Julian is doing his PhD at
 
-## Education
+Hello. I am currently working on my PhD at the Center for Adaptive Rationality at the [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality) in Berlin.
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
+I design system to boost human decision making in complex problems. These systems rely on collective intelligence, machine learning and anything in-between. Check out [my projects](projects.qmd) here.
 
-Macalester College | St. Paul MA
-B.A in Economics | Sept 2007 - June 2011
 
-## Experience
+I also work as a freelance data scientist and machine learning engineer mainly focused on interpretable artificial intelligence. If you want to know more, shoot me an [email](mailto:<berger@mpib-berlin.mpg.de>).
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
 
-GeoScynce | Chief Analyst | Sept 2012 - April 2018
-
-:::
-
-### This content appears below the formatted about page content.
-
-Below?
 
