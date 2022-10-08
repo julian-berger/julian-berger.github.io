@@ -26,10 +26,11 @@ about:
 
 Hello. I am currently working on my PhD at the Center for Adaptive Rationality at the [Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality) in Berlin.
 
-I design system to boost human decision making in complex problems. These systems rely on collective intelligence, machine learning and anything in-between. Check out [my projects](projects.qmd) here. You will learn about:
+I design systems to boost human decision making in complex problems. These systems rely on collective intelligence, machine learning and anything in-between. Check out [my projects](projects.qmd) here. You will learn about:
 
 - How to use collective intelligence efficiently
-- If medical decision support to diagnose COVID-19 outcomes 
+- How to diagnose COVID-19 outcomes using interpretable machine learning
+- How collective intelligence could help us better understand mental disorders
 
 
 I also work as a freelance data scientist and machine learning engineer mainly focused on interpretable artificial intelligence. If you want to know more, shoot me an [email](mailto:<berger@mpib-berlin.mpg.de>).
