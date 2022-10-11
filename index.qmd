@@ -2,7 +2,7 @@
 title: "Julian Berger"
 about:
   template: broadside
-  image: "IMG_1141.jpg"
+  image: "Berger_Julian_Oct2022.jpg"
   image-shape: round
   links:
     - icon: envelope
