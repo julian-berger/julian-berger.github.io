@@ -40,6 +40,12 @@ website:
             href: projects/hct.qmd
           - text: "Interpretable Credit Scores"
             href: projects/credit.qmd
+          - text: "Debtor Behavior"
+            href: projects/debt.qmd
+          - text: "LLM-AI Ensembles"
+            href: projects/llm_humans.qmd
+          - text: "LLM and Collective Intelligence"
+            href: projects/LLMxCI.qmd
   page-footer:
     left: |
       <br>

@@ -10,7 +10,25 @@
 <atom:link href="julian-berger.github.io/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.555</generator>
-<lastBuildDate>Sun, 22 Sep 2024 14:30:10 GMT</lastBuildDate>
+<lastBuildDate>Sun, 22 Sep 2024 17:43:46 GMT</lastBuildDate>
+<item>
+  <title>Household debt and repayment behavior</title>
+  <link>julian-berger.github.io/projects/debt.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We partner with coeo to investigate debtor behavior across 3.4 million debtors in Germany.</p>
+<p>Results are work in progress but you can shoot me an email and we talk about behavioral characteristics of people with varying amounts of debt and how to identify early warning signals of repayment struggles.</p>
+
+
+
+ ]]></description>
+  <guid>julian-berger.github.io/projects/debt.html</guid>
+  <pubDate>Sun, 22 Sep 2024 17:43:46 GMT</pubDate>
+  <media:content url="julian-berger.github.io/images/debt.webp" medium="image" type="image/webp"/>
+</item>
 <item>
   <title>Hybrid Confirmation Trees</title>
   <link>julian-berger.github.io/projects/hct.html</link>
@@ -27,7 +45,7 @@
 
  ]]></description>
   <guid>julian-berger.github.io/projects/hct.html</guid>
-  <pubDate>Sun, 22 Sep 2024 14:30:10 GMT</pubDate>
+  <pubDate>Sun, 22 Sep 2024 17:43:46 GMT</pubDate>
   <media:content url="julian-berger.github.io/images/hct_vs_advice.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -45,8 +63,45 @@
 
  ]]></description>
   <guid>julian-berger.github.io/projects/crowd_stop.html</guid>
-  <pubDate>Sun, 22 Sep 2024 14:30:10 GMT</pubDate>
+  <pubDate>Sun, 22 Sep 2024 17:43:46 GMT</pubDate>
   <media:content url="julian-berger.github.io/images/crowd_stop_Fig2.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
+<item>
+  <title>LLM-human ensembles</title>
+  <link>julian-berger.github.io/projects/LLM_humans.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Abstract: Artificial intelligence systems, particularly large language models (LLMs), are increasingly being employed in high-stakes decisions that impact both individuals and society at large, often without adequate safeguards to ensure safety, quality, and equity. Yet LLMs hallucinate, lack common sense, and are biased - shortcomings that may reflect LLMs’ inherent limitations and thus may not be remedied by more sophisticated architectures, more data, or more human feedback. Relying solely on LLMs for complex, high-stakes decisions is therefore problematic. Here we present a hybrid collective intelligence system that mitigates these risks by leveraging the complementary strengths of human experience and the vast information processed by LLMs. We apply our method to open-ended medical diagnostics, combining 40,762 differential diagnoses made by physicians with the diagnoses of five state-of-the art LLMs across 2,133 medical cases. We show that hybrid collectives of physicians and LLMs outperform both single physicians and physician collectives, as well as single LLMs and LLM ensembles. This result holds across a range of medical specialties and professional experience, and can be attributed to humans’ and LLMs’ complementary contributions that lead to different kinds of errors. Our approach highlights the potential for collective human and machine intelligence to improve accuracy in complex, open-ended domains like medical diagnostics.</p>
+<p><a href="https://arxiv.org/abs/2406.14981">PREPRINT HERE</a></p>
+
+
+
+ ]]></description>
+  <guid>julian-berger.github.io/projects/LLM_humans.html</guid>
+  <pubDate>Sun, 22 Sep 2024 17:43:46 GMT</pubDate>
+  <media:content url="julian-berger.github.io/images/complementarity_physicians_LLMs.png" medium="image" type="image/png" height="140" width="144"/>
+</item>
+<item>
+  <title>How large language models can reshape collective intelligence</title>
+  <link>julian-berger.github.io/projects/LLMxCI.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Abstract: Collective intelligence underpins the success of groups, organizations, markets and societies. Through distributed cognition and coordination, collectives can achieve outcomes that exceed the capabilities of individuals—even experts—resulting in improved accuracy and novel capabilities. Often, collective intelligence is supported by information technology, such as online prediction markets that elicit the ‘wisdom of crowds’, online forums that structure collective deliberation or digital platforms that crowdsource knowledge from the public. Large language models, however, are transforming how information is aggregated, accessed and transmitted online. Here we focus on the unique opportunities and challenges this transformation poses for collective intelligence. We bring together interdisciplinary perspectives from industry and academia to identify potential benefits, risks, policy-relevant considerations and open research questions, culminating in a call for a closer examination of how large language models affect humans’ ability to collectively tackle complex problems.</p>
+<p><a href="https://www.nature.com/articles/s41562-024-01959-9">LINK</a></p>
+<p>Citation: Burton, J. W., Lopez-Lopez, E., Hechtlinger, S., Rahwan, Z., Aeschbach, S., Bakker, M. A., <strong>Berger, J.,</strong> … &amp; Hertwig, R. (2024). How large language models can reshape collective intelligence. <em>Nature Human Behaviour</em>.</p>
+
+
+
+ ]]></description>
+  <guid>julian-berger.github.io/projects/LLMxCI.html</guid>
+  <pubDate>Sun, 22 Sep 2024 17:43:46 GMT</pubDate>
+  <media:content url="julian-berger.github.io/images/LLMxCI.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>Interpretable Credit Scores</title>
@@ -69,7 +124,7 @@
 
  ]]></description>
   <guid>julian-berger.github.io/projects/credit.html</guid>
-  <pubDate>Sun, 22 Sep 2024 14:30:10 GMT</pubDate>
+  <pubDate>Sun, 22 Sep 2024 17:43:46 GMT</pubDate>
   <media:content url="julian-berger.github.io/images/credit.webp" medium="image" type="image/webp"/>
 </item>
 </channel>

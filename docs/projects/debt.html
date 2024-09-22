@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="How can we characterize debtors based on their behavior?">
 
-<title>Julian Berger | collective intelligence | wisdom of crowds | machine learning</title>
+<title>Julian Berger | collective intelligence | wisdom of crowds | machine learning - Household debt and repayment behavior</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -67,18 +68,18 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-md " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo-header.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/logo-header.png" alt="" class="navbar-logo">
     </a>
   </div>
         <div class="quarto-navbar-tools tools-end">
@@ -90,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Household debt and repayment behavior</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -100,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="sidebar-tools-main tools-wide">
@@ -117,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./projects/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../projects/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -126,38 +127,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects/crowd_stop.html" class="sidebar-item-text sidebar-link">
+  <a href="../projects/crowd_stop.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Efficient Crowds</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects/hct.html" class="sidebar-item-text sidebar-link">
+  <a href="../projects/hct.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hybrid Confirmation Trees</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects/credit.html" class="sidebar-item-text sidebar-link">
+  <a href="../projects/credit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Interpretable Credit Scores</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./projects/debt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Debtor Behavior</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./projects/llm_humans.qmd" class="sidebar-item-text sidebar-link">
- <span class="menu-text">LLM-AI Ensembles</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./projects/LLMxCI.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">LLM and Collective Intelligence</span></a>
   </div>
 </li>
       </ul>
@@ -169,77 +152,34 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Household debt and repayment behavior</h1>
+</div>
 
-
-
-<!---
- ::: {.container-fluid} 
---->
-<div class="p-5 mb-4 bg-light rounded-3 bgimg">
-  <br><br><br><br>
-  <div class="container-fluid py-5">
-    <h1 class="display-5 fw-bold">How to make use of AI?</h1>
-    <!-- <a href="src/calendar.html" class="btn btn-primary btn-lg" type="button">Book an appointment</a> -->
+<div>
+  <div class="description">
+    <p>How can we characterize debtors based on their behavior?</p>
   </div>
 </div>
-<p class="lead">
-   <small class="text-hero">WISDOM OF CROWDS   |  HYBRID INTELLIGENCE   |   DECISION SUPPORT   |   MACHINE LEARNING</small>
-</p>
-<style type="text/css">
-.lead {
-    font-family: "Zilla Slab";
-    text-align: center;
-}
 
-.bgimg {
-  background-image: url('images/Berger_Julian_Oct2022 2.jpg');
-  Background-size: 100px;
-}
-.hero-quote {
-  font-family: "Zilla Slab";
-  font-color: white;
-  color: white;
-}
 
-.fw-bold {
-  /* font-family: "Zilla Slab Highlight"; */
-  font-style: bold !important;
-  color: white !important;
-}
-</style>
-<!---
- ::: 
---->
-<p><br></p>
-<div class="grid">
-<div class="g-col-1">
+<div class="quarto-title-meta column-page-right">
 
-</div>
-<div class="g-col-10">
-<section id="research" class="level4">
-<h4 class="anchored" data-anchor-id="research">Research</h4>
-<p>Hello. I am a final year PhD student at the <a href="https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality">Center for Adaptive Rationality, Max Planck Institute for Human Development</a>. My work focuses on improving decision making of individuals, crowds and hybrid human-AI systems. I combine decision making research from psychology and economics with the latest insights from computer science.</p>
-</section>
-<section id="industry" class="level4">
-<h4 class="anchored" data-anchor-id="industry">Industry</h4>
-<p>I also work as a consultant and ML engineer. Here, my focus is on the development of intepretable machine learning models that are accurate, fair and transparent. To that end, I employ a wide suite of model architectures and engage in a lot of feature engineering and multi-parameter optimization. In my industry work I often join forces with <a href="https://www.simplyrational.de/en/">Simply Rational</a>.</p>
-</section>
-<section id="latest-updates" class="level4">
-<h4 class="anchored" data-anchor-id="latest-updates">Latest updates</h4>
-<ul>
-<li><p>[09/24] Our work on LLMs and collective intelligence was published in <a href="https://www.nature.com/articles/s41562-024-01959-9">Nature Human Behavior</a>.</p></li>
-<li><p>[09/24] I was awarded a fellowship for interdisciplinary economics by the <a href="https://www.joachim-herz-stiftung.de/en/research/promotion-of-young-talents/add-on-fellowships-for-interdisciplinary-economics">Joachim Herz Foundation</a> for my work on improving consumers’ ability understand and make changes to their credit scores.</p></li>
-<li><p>[07/24] I presented my work on human-AI ensembling for efficient crowd wisdom at Advances in Decision Analysis 2024. <a href="./projects/hct.html">Check out the project here</a>.</p></li>
-<li><p>[06/24] We uploaded our pre-print on human-LLM ensembles and how their complementary strength improve open-ended differential diagnoses. <a href="https://arxiv.org/abs/2406.14981">Read it here.</a></p></li>
-</ul>
-</section>
-</div>
-<div class="g-col-1">
+    
+  
+    
+  </div>
+  
 
-</div>
-</div>
+
+</header>
+
+
+<p>We partner with coeo to investigate debtor behavior across 3.4 million debtors in Germany.</p>
+<p>Results are work in progress but you can shoot me an email and we talk about behavioral characteristics of people with varying amounts of debt and how to identify early warning signals of repayment struggles.</p>
 
 
 
@@ -657,7 +597,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><br> Copyright © 2024 Julian Berger<br> This website was created with <a href="https://quarto.org"><img src="./images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a><br> Design by <a href="https://kapitan.net/">Dr.&nbsp;Daniel Kapitan</a><br></p>
+<p><br> Copyright © 2024 Julian Berger<br> This website was created with <a href="https://quarto.org"><img src="../images/quarto.png" class="img-fluid" alt="Quarto" width="65"></a><br> Design by <a href="https://kapitan.net/">Dr.&nbsp;Daniel Kapitan</a><br></p>
 </div>   
     <div class="nav-footer-center">
 <p><br> <strong>Email:</strong><br> <a href="mailto::berger%20%5Bat%5D%20mpib-berlin.mpg.de">berger [at] mpib-berlin.mpg.de</a></p>

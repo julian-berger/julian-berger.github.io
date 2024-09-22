@@ -1,0 +1,11 @@
+---
+title: Household debt and repayment behavior
+description: |
+    How can we characterize debtors based on their behavior?
+image: /images/debt.webp
+#categories: [english, data architecture, healthcare]
+---
+
+We partner with coeo to investigate debtor behavior across 3.4 million debtors in Germany.
+
+Results are work in progress but you can shoot me an email and we talk about behavioral characteristics of people with varying amounts of debt and how to identify early warning signals of repayment struggles.
