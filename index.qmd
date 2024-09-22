@@ -1,0 +1,81 @@
+---
+sidebar: true
+toc: false
+format:
+  html:
+    page-layout: article
+---
+
+```{=html}
+<!---
+ ::: {.container-fluid} 
+--->
+```
+```{=html}
+<div class="p-5 mb-4 bg-light rounded-3 bgimg">
+  <br><br><br><br>
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">How to make use of AI?</h1>
+    <!-- <a href="src/calendar.html" class="btn btn-primary btn-lg" type="button">Book an appointment</a> -->
+  </div>
+</div>
+<p class="lead">
+   <small class="text-hero">WISDOM OF CROWDS &emsp; | &emsp;HYBRID INTELLIGENCE &emsp; | &emsp; DECISION SUPPORT &emsp; | &emsp; MACHINE LEARNING</small>
+</p>
+<style type="text/css">
+.lead {
+    font-family: "Zilla Slab";
+    text-align: center;
+}
+
+.bgimg {
+  background-image: url('images/Berger_Julian_Oct2022 2.jpg');
+  Background-size: 100px;
+}
+.hero-quote {
+  font-family: "Zilla Slab";
+  font-color: white;
+  color: white;
+}
+
+.fw-bold {
+  /* font-family: "Zilla Slab Highlight"; */
+  font-style: bold !important;
+  color: white !important;
+}
+</style>
+```
+```{=html}
+<!---
+ ::: 
+--->
+```
+<br>
+
+::: grid
+::: g-col-1
+:::
+
+::: g-col-10
+#### Research
+
+Hello. I am a final year PhD student at the [Center for Adaptive Rationality, Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality). My work focuses on improving decision making of individuals, crowds and hybrid human-AI systems. I combine decision making research from psychology and economics with the latest insights from computer science.
+
+#### Industry
+
+I also work as a consultant and ML engineer. Here, my focus is on the development of intepretable machine learning models that are accurate, fair and transparent. To that end, I employ a wide suite of model architectures and engage in a lot of feature engineering and multi-parameter optimization. In my industry work I often join forces with [Simply Rational](https://www.simplyrational.de/en/).
+
+#### Latest updates
+
+-   \[09/24\] Our work on LLMs and collective intelligence was published in [Nature Human Behavior](https://www.nature.com/articles/s41562-024-01959-9).
+
+-   \[09/24\] I was awarded a fellowship for interdisciplinary economics by the [Joachim Herz Foundation](https://www.joachim-herz-stiftung.de/en/research/promotion-of-young-talents/add-on-fellowships-for-interdisciplinary-economics) for my work on improving consumers' ability understand and make changes to their credit scores.
+
+-   \[07/24\] I presented my work on human-AI ensembling for efficient crowd wisdom at Advances in Decision Analysis 2024. [Check out the project here](projects/hct.qmd).
+
+-   \[06/24\] We uploaded our pre-print on human-LLM ensembles and how their complementary strength improve open-ended differential diagnoses. [Read it here.](https://arxiv.org/abs/2406.14981)
+:::
+
+::: g-col-1
+:::
+:::

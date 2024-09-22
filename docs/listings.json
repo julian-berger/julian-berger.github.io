@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/hct.html",
+      "/projects/crowd_stop.html",
+      "/projects/credit.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/template.html"
+    ]
+  }
+]

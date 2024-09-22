@@ -1,0 +1,14 @@
+---
+title: Efficient Crowds
+description: |
+    How to use the wisdom of crowds more efficiently and improve decision making across 7 domains.
+image: /images/crowd_stop_Fig2.png
+#categories: [english, data architecture, healthcare]
+---
+
+Abstract: Efficiently allocating individuals to work on complex decision problems is a key challenge for groups, organizations and societies, and requires navigating a crucial trade-off: increasing the number of individuals working on a task typically increases accuracy but at the expense of higher costs. Research in collective intelligence has proposed a plethora of mechanisms to pool the judgements of independent decision makers for increasing performance. However, these are all static and do not adjust the number of crowd members to the challenge at hand, resulting in high, fixed costs for every decision problem. We develop and test three decision rules that allow to benefit from the wisdom of the crowd adaptively depending on a case's difficulty. Our rules rely on decision makers' confidence judgements for stopping crowd growth. Empirical analyses in four real-world domains (cancer diagnoses, forecasting, false news classification, and criminology) using seven data sets find that our adaptive decision rules can achieve equal (or higher) accuracy compared to widely-used static crowd aggregators while using fewer individuals. Our findings present easily applicable decision guidelines ready to be employed in practice to substantially boost the efficiency of crowds.
+
+
+
+
+![](/images/crowd_stop_Fig2.png)

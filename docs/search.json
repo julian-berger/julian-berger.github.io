@@ -1,0 +1,69 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "How to make use of AI?",
+    "section": "",
+    "text": "How to make use of AI?\n    \n  \n\n\n   WISDOM OF CROWDS   |  HYBRID INTELLIGENCE   |   DECISION SUPPORT   |   MACHINE LEARNING\n\n\n\n\n\n\n\n\n\n\nResearch\nHello. I am a final year PhD student at the Center for Adaptive Rationality, Max Planck Institute for Human Development. My work focuses on improving decision making of individuals, crowds and hybrid human-AI systems. I combine decision making research from psychology and economics with the latest insights from computer science.\n\n\nIndustry\nI also work as a consultant and ML engineer. Here, my focus is on the development of intepretable machine learning models that are accurate, fair and transparent. To that end, I employ a wide suite of model architectures and engage in a lot of feature engineering and multi-parameter optimization. In my industry work I often join forces with Simply Rational.\n\n\nLatest updates\n\n[09/24] Our work on LLMs and collective intelligence was published in Nature Human Behavior.\n[09/24] I was awarded a fellowship for interdisciplinary economics by the Joachim Herz Foundation for my work on improving consumers’ ability understand and make changes to their credit scores.\n[07/24] I presented my work on human-AI ensembling for efficient crowd wisdom at Advances in Decision Analysis 2024. Check out the project here.\n[06/24] We uploaded our pre-print on human-LLM ensembles and how their complementary strength improve open-ended differential diagnoses. Read it here.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "blog/template.html",
+    "href": "blog/template.html",
+    "title": "Analytical problem solving",
+    "section": "",
+    "text": "Unable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "projects/credit.html",
+    "href": "projects/credit.html",
+    "title": "Interpretable Credit Scores",
+    "section": "",
+    "text": "This project evaluated several credit scores in the lab and in the field WITH consumers. The scores we built to be accurate, fair and transparent.\nThis project is in cooperation with Germany’s largest credit scoring agency. Due to NDA and ongoing developments, public announcements and pre-prints of the research is not to be expected before May 2025.\nIf you want to know more, shoot me an email and we can have a chat.",
+    "crumbs": [
+      "Projects",
+      "Interpretable Credit Scores"
+    ]
+  },
+  {
+    "objectID": "projects/hct.html",
+    "href": "projects/hct.html",
+    "title": "Hybrid Confirmation Trees",
+    "section": "",
+    "text": "Abstract: We study hybrid confirmation trees, a simple heuristic for producing hybrid intelligence in melanoma classification. Hybrid confirmation trees first elicit the decision of one human expert and one algorithm. Whenever the two agree a decision is immediately made. In case of disagreement, a second human expert is called in to break the tie. We apply this approach to data on skin cancer detection in dermoscopic and non-dermoscopic images across two studies. Study 1 establishes our approach to be a powerful alternative to human baselines, even outperforming up to three humans combined at lower costs. Study 2 compares hybrid confirmation trees against the industry-standard: humans taking AI advice. Crucially, we find humans supported by AI advice perform worse than hybrid confirmation trees. We attribute this benefit over human-only decision making and AI advice to uncorrelated errors between independent decisions by human and AI. AI advice lead to humans copying AI mistakes while hybrid confirmation trees already exhibit a generally lower agreement on AI mistakes, which can be successfully resolved by human tie breaking. Taken together, our results highlight the potential for combining independent choices of humans and AI for medical diagnostics and beyond as hybrid confirmation trees are a simple but powerful general-purpose method for arbitrating choices.",
+    "crumbs": [
+      "Projects",
+      "Hybrid Confirmation Trees"
+    ]
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Hybrid Confirmation Trees\n\n\nShould we rely on AI advice or rather combine indepenent human and AI decisions?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEfficient Crowds\n\n\nHow to use the wisdom of crowds more efficiently and improve decision making across 7 domains.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInterpretable Credit Scores\n\n\nBuilding consumer friendly credit scores. Field and lab evidence.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "projects/crowd_stop.html",
+    "href": "projects/crowd_stop.html",
+    "title": "Efficient Crowds",
+    "section": "",
+    "text": "Abstract: Efficiently allocating individuals to work on complex decision problems is a key challenge for groups, organizations and societies, and requires navigating a crucial trade-off: increasing the number of individuals working on a task typically increases accuracy but at the expense of higher costs. Research in collective intelligence has proposed a plethora of mechanisms to pool the judgements of independent decision makers for increasing performance. However, these are all static and do not adjust the number of crowd members to the challenge at hand, resulting in high, fixed costs for every decision problem. We develop and test three decision rules that allow to benefit from the wisdom of the crowd adaptively depending on a case’s difficulty. Our rules rely on decision makers’ confidence judgements for stopping crowd growth. Empirical analyses in four real-world domains (cancer diagnoses, forecasting, false news classification, and criminology) using seven data sets find that our adaptive decision rules can achieve equal (or higher) accuracy compared to widely-used static crowd aggregators while using fewer individuals. Our findings present easily applicable decision guidelines ready to be employed in practice to substantially boost the efficiency of crowds.",
+    "crumbs": [
+      "Projects",
+      "Efficient Crowds"
+    ]
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog posts",
+    "section": "",
+    "text": "Analytical problem solving\n\n\nbased on causal, correlational and deductive models\n\n\n\nenglish\n\n\nmodeling\n\n\n\nI co-authored a peer-reviewed paper that compares the different modeling approaches for analytical problem solving. \n\n\n\n\n\nMar 2022\n\n\nDaniel Kapitan\n\n\n\n\n\n\nNo matching items"
+  }
+]
