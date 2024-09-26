@@ -64,9 +64,11 @@ Hello. I am a final year PhD student at the [Center for Adaptive Rationality, Ma
 
 My PhD is funded by the [Foundation of German Business (Stiftung der deutschen Wirtschaft)](https://www.sdw.org/index.html). I have received further funding by the [Danish Data Science Adacemy](https://ddsa.dk/) and the [Joachim Herz Foundation](https://www.joachim-herz-stiftung.de/en/research/promotion-of-young-talents/add-on-fellowships-for-interdisciplinary-economics).
 
+
+
 #### Industry
 
-I also work as a consultant and ML engineer. Here, my focus is on the development of intepretable machine learning models that are accurate, fair and transparent. To that end, I employ a wide suite of model architectures and engage in a lot of feature engineering and multi-parameter optimization. It is good fun. In my industry work I often join forces with [Simply Rational](https://www.simplyrational.de/en/).
+I also work as a consultant and ML engineer. Here, my focus is on the development of intepretable machine learning models that are accurate, fair and transparent. To that end, I employ a wide suite of model architectures and engage in a lot of feature engineering and multi-parameter optimization. It is good fun. In my industry work I often join forces with [Simply Rational](https://www.simplyrational.de/en/). 
 
 #### Latest updates
 
