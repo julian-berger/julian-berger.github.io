@@ -10,7 +10,7 @@
 <atom:link href="julian-berger.github.io/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.555</generator>
-<lastBuildDate>Sun, 22 Sep 2024 18:14:18 GMT</lastBuildDate>
+<lastBuildDate>Thu, 26 Sep 2024 08:31:09 GMT</lastBuildDate>
 <item>
   <title>Household debt and repayment behavior</title>
   <link>julian-berger.github.io/projects/debt.html</link>
@@ -26,7 +26,7 @@
 
  ]]></description>
   <guid>julian-berger.github.io/projects/debt.html</guid>
-  <pubDate>Sun, 22 Sep 2024 18:14:18 GMT</pubDate>
+  <pubDate>Thu, 26 Sep 2024 08:31:09 GMT</pubDate>
   <media:content url="julian-berger.github.io/images/debt.webp" medium="image" type="image/webp"/>
 </item>
 <item>
@@ -45,7 +45,7 @@
 
  ]]></description>
   <guid>julian-berger.github.io/projects/hct.html</guid>
-  <pubDate>Sun, 22 Sep 2024 18:14:18 GMT</pubDate>
+  <pubDate>Thu, 26 Sep 2024 08:31:09 GMT</pubDate>
   <media:content url="julian-berger.github.io/images/hct_vs_advice.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -63,7 +63,7 @@
 
  ]]></description>
   <guid>julian-berger.github.io/projects/crowd_stop.html</guid>
-  <pubDate>Sun, 22 Sep 2024 18:14:18 GMT</pubDate>
+  <pubDate>Thu, 26 Sep 2024 08:31:09 GMT</pubDate>
   <media:content url="julian-berger.github.io/images/crowd_stop_Fig2.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
@@ -81,7 +81,7 @@
 
  ]]></description>
   <guid>julian-berger.github.io/projects/LLM_humans.html</guid>
-  <pubDate>Sun, 22 Sep 2024 18:14:18 GMT</pubDate>
+  <pubDate>Thu, 26 Sep 2024 08:31:09 GMT</pubDate>
   <media:content url="julian-berger.github.io/images/complementarity_physicians_LLMs.png" medium="image" type="image/png" height="140" width="144"/>
 </item>
 <item>
@@ -100,7 +100,7 @@
 
  ]]></description>
   <guid>julian-berger.github.io/projects/LLMxCI.html</guid>
-  <pubDate>Sun, 22 Sep 2024 18:14:18 GMT</pubDate>
+  <pubDate>Thu, 26 Sep 2024 08:31:09 GMT</pubDate>
   <media:content url="julian-berger.github.io/images/LLMxCI.webp" medium="image" type="image/webp"/>
 </item>
 <item>
@@ -124,7 +124,7 @@
 
  ]]></description>
   <guid>julian-berger.github.io/projects/credit.html</guid>
-  <pubDate>Sun, 22 Sep 2024 18:14:18 GMT</pubDate>
+  <pubDate>Thu, 26 Sep 2024 08:31:09 GMT</pubDate>
   <media:content url="julian-berger.github.io/images/credit.webp" medium="image" type="image/webp"/>
 </item>
 </channel>
