@@ -79,6 +79,8 @@ I also work as a consultant and ML engineer. Here, my focus is on the developmen
 -   \[06/24\] We uploaded our pre-print on human-LLM ensembles and how their complementary strength improve open-ended differential diagnoses. [Read it here.](https://arxiv.org/abs/2406.14981)
 
 -   \[04/24\] I visited Odense and Copenhagen thanks to a grant by the [Danish Data Science Adacemy](https://ddsa.dk/) to work on human-AI ensembling. 
+
+
 :::
 
 ::: g-col-1
