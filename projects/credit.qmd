@@ -8,7 +8,7 @@ image: /images/credit.webp
 
 This project evaluated several credit scores in the lab and in the field WITH consumers. The scores we built to be accurate, fair and transparent.
 
-This project is in cooperation with Germany's largest credit scoring agency. Due to NDA and ongoing developments, public announcements and pre-prints of the research is not to be expected before May 2025.
+This project is in cooperation with Germany's largest credit scoring agency. Due to NDA and ongoing developments, public announcements and pre-prints of the research is not to be expected before November 2025.
 
 If you want to know more, shoot me an email and we can have a chat.
 

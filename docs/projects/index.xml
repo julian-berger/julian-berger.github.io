@@ -9,8 +9,68 @@
 <link>julian-berger.github.io/projects/</link>
 <atom:link href="julian-berger.github.io/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.555</generator>
-<lastBuildDate>Sun, 22 Sep 2024 14:30:10 GMT</lastBuildDate>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Sun, 13 Jul 2025 10:00:32 GMT</lastBuildDate>
+<item>
+  <title>AI advice or independent aggregation?</title>
+  <link>julian-berger.github.io/projects/hct_vs_ai.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Abstract: Artificial Intelligence (AI) systems are usually deployed as advisers: a system suggests a decision that a human may accept or reject. This influence of humans during their decision making process hinders a clear attribution of errors to human or machine and risks human automation bias and potentially deskilling humans. We evaluate an alternative to combining human and AI decisions: the hybrid confirmation tree — built on the principle of independent judgments. The hybrid confirmation tree elicits one human and one AI choice independent of each other. When they agree, that decision is accepted. If not, a second human breaks the tie. We compare this approach to the AI-as-advisor approach across 10 data sets, from a wide range of domains, including medical diagnostic and misinformation judgments. The hybrid confirmation tree outperforms the AI-as-advisor approach in all data sets. The benefit stems from the hybrid confirmation tree capturing a larger share of correct AI choices than advice-takers. Similar performance gains above AI-as-advice were observed even when AI advice was explainable unless humans alone were at chance performance. While the hybrid confirmation tree may cost more human decisions, this additional cost can be offset by the increased accuracy we observe. Overall, hybrid confirmation trees provide a robust, accurate and transparent alternative to the AI-advice, and offers a simple mechanism to tap into the wisdom of hybrid crowds.</p>
+<p><img src="julian-berger.github.io/images/fig_hct_advice.png" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <guid>julian-berger.github.io/projects/hct_vs_ai.html</guid>
+  <pubDate>Sun, 13 Jul 2025 10:00:32 GMT</pubDate>
+  <media:content url="julian-berger.github.io/images/fig_hct_advice.png" medium="image" type="image/png" height="173" width="144"/>
+</item>
+<item>
+  <title>Human learning creates human-AI synergy</title>
+  <link>julian-berger.github.io/projects/ai_learning.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>It is currently not well understood when and why combining humans and artificial intelligence (AI) produces better results than humans or AI alone. Here we argue that human learning is a crucial, but overlooked, facilitator of human-AI synergy.</p>
+<p>Recently, Vaccaro et al.&nbsp;(2024) conducted a preregistered systematic review and meta-analysis of 74 studies that compared the performance of humans, AI systems, and their combination on the same task. On average, the human-AI combination resulted in worse performance than just relying on whichever of the two—the human or the AI—was better on its own. While they identified several facilitators of positive human–AI synergy (e.g., when humans working alone outperform AI), other, plausible moderators (e.g., AI explanations) could not explain synergy differences across studies.</p>
+<p>Yet, we argue that there is one hidden dimension in these studies that is not only overlooked by Vaccaro et al.&nbsp;but the wider field on human computer interaction and that is the human capability for learning from feedback. First, we lay out the theory of how and why human learning can improve human-AI synergy. Next, we re-analyse the studies covered in Vaccaro et al.&nbsp;and show that only 10 out of 74 studies provide humans with feedback. Investigating another review by Lai et al.&nbsp;(2019) paints the same picture as only 5 of 124 studies provide feedback. Last, we conduct a series of meta-analyses and conclude that studies that allow humans to learn appropriate use of AI from feedback tend to report positive human-AI synergy—especially when paired with AI explanations. We argue that neglecting human learning leads the field to underappreciate the potential for human–AI synergy. We therefore call for focusing on human learning to better understand and foster successful human–AI collaboration.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="julian-berger.github.io/images/learning.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <guid>julian-berger.github.io/projects/ai_learning.html</guid>
+  <pubDate>Sun, 13 Jul 2025 10:00:32 GMT</pubDate>
+  <media:content url="julian-berger.github.io/images/learning.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Household debt and repayment behavior</title>
+  <link>julian-berger.github.io/projects/debt.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We partner with coeo to investigate debtor behavior across 3.4 million debtors in Germany.</p>
+<p>Results are work in progress but you can shoot me an email and we talk about behavioral characteristics of people with varying amounts of debt and how to identify early warning signals of repayment struggles.</p>
+
+
+
+ ]]></description>
+  <guid>julian-berger.github.io/projects/debt.html</guid>
+  <pubDate>Sun, 13 Jul 2025 10:00:32 GMT</pubDate>
+  <media:content url="julian-berger.github.io/images/debt.webp" medium="image" type="image/webp"/>
+</item>
 <item>
   <title>Hybrid Confirmation Trees</title>
   <link>julian-berger.github.io/projects/hct.html</link>
@@ -19,7 +79,7 @@
 
 
 
-<p>Abstract: We study hybrid confirmation trees, a simple heuristic for producing hybrid intelligence in melanoma classification. Hybrid confirmation trees first elicit the decision of one human expert and one algorithm. Whenever the two agree a decision is immediately made. In case of disagreement, a second human expert is called in to break the tie. We apply this approach to data on skin cancer detection in dermoscopic and non-dermoscopic images across two studies. Study 1 establishes our approach to be a powerful alternative to human baselines, even outperforming up to three humans combined at lower costs. Study 2 compares hybrid confirmation trees against the industry-standard: humans taking AI advice. Crucially, we find humans supported by AI advice perform worse than hybrid confirmation trees. We attribute this benefit over human-only decision making and AI advice to uncorrelated errors between independent decisions by human and AI. AI advice lead to humans copying AI mistakes while hybrid confirmation trees already exhibit a generally lower agreement on AI mistakes, which can be successfully resolved by human tie breaking. Taken together, our results highlight the potential for combining independent choices of humans and AI for medical diagnostics and beyond as hybrid confirmation trees are a simple but powerful general-purpose method for arbitrating choices.</p>
+<p>Abstract: Combining human and artificial intelligence (AI) provides new avenues for improving decision accuracy, but effective and cost-efficient integration strategies that maintain human involvement in the decision process remain crucial. This paper introduces and comprehensively evaluates the Hybrid Confirmation Tree (HCT), a simple sequential heuristic where an initial human decision is confirmed by an AI and disagreement triggers a second human tie-breaker. Through analytical derivations, we show that the HCT can match and exceed the accuracy of a three-person human majority vote while requiring fewer human inputs, particularly when AI accuracy is comparable to or exceeds human accuracy. Extensive numerical simulations further explore the HCT’s performance landscape, demonstrating that its ability to achieve complementarity — outperforming both individual humans, machines and the majority vote — is maximized when human and AI accuracies are similar and their decisions are not overly correlated. Empirical re-analysis of six diverse real-world data sets (skin cancer diagnosis, deepfake detection, geopolitical forecasting, criminal re-arrest) validates these findings, showing the HCT improves accuracy over the majority vote by up to 10 percentage points while reducing the cost of decision making by 28-44<img src="https://latex.codecogs.com/png.latex?%5C%25">. Furthermore, the HCT provides greater flexibility in navigating true and false positive trade-offs compared to fixed human-only heuristics like hierarchies and polyarchies. The HCT emerges as a practical, efficient, and robust heuristic for hybrid collective intelligence while maintaining human agency.</p>
 <p><img src="julian-berger.github.io/images/hct_1.png" class="img-fluid"></p>
 <p><img src="julian-berger.github.io/images/hct_vs_advice.png" class="img-fluid"></p>
 
@@ -27,7 +87,7 @@
 
  ]]></description>
   <guid>julian-berger.github.io/projects/hct.html</guid>
-  <pubDate>Sun, 22 Sep 2024 14:30:10 GMT</pubDate>
+  <pubDate>Sun, 13 Jul 2025 10:00:32 GMT</pubDate>
   <media:content url="julian-berger.github.io/images/hct_vs_advice.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -45,8 +105,46 @@
 
  ]]></description>
   <guid>julian-berger.github.io/projects/crowd_stop.html</guid>
-  <pubDate>Sun, 22 Sep 2024 14:30:10 GMT</pubDate>
+  <pubDate>Sun, 13 Jul 2025 10:00:32 GMT</pubDate>
   <media:content url="julian-berger.github.io/images/crowd_stop_Fig2.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
+<item>
+  <title>LLM-human ensembles</title>
+  <link>julian-berger.github.io/projects/LLM_humans.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Abstract: AI systems, particularly large language models (LLMs), are increasingly being employed in high-stakes decisions that impact both individuals and society at large, often without adequate safeguards to ensure safety, quality, and equity. Yet LLMs hallucinate, lack common sense, and are biased—shortcomings that may reflect LLMs’ inherent limitations and thus may not be remedied by more sophisticated architectures, more data, or more human feedback. Relying solely on LLMs for complex, high-stakes decisions is therefore problematic. Here, we present a hybrid collective intelligence system that mitigates these risks by leveraging the complementary strengths of human experience and the vast information processed by LLMs. We apply our method to open-ended medical diagnostics, combining 40,762 differential diagnoses made by physicians with the diagnoses of five state-of-the art LLMs across 2,133 text-based medical case vignettes. We show that hybrid collectives of physicians and LLMs outperform both single physicians and physician collectives, as well as single LLMs and LLM ensembles. This result holds across a range of medical specialties and professional experience and can be attributed to humans’ and LLMs’ complementary contributions that lead to different kinds of errors. Our approach highlights the potential for collective human and machine intelligence to improve accuracy in complex, open-ended domains like medical diagnostics.</p>
+<p><a href="https://www.pnas.org/doi/full/10.1073/pnas.2426153122">PAPER</a></p>
+<p><a href="https://arxiv.org/abs/2406.14981">PREPRINT</a></p>
+
+
+
+ ]]></description>
+  <guid>julian-berger.github.io/projects/LLM_humans.html</guid>
+  <pubDate>Sun, 13 Jul 2025 10:00:32 GMT</pubDate>
+  <media:content url="julian-berger.github.io/images/complementarity_physicians_LLMs.png" medium="image" type="image/png" height="140" width="144"/>
+</item>
+<item>
+  <title>How large language models can reshape collective intelligence</title>
+  <link>julian-berger.github.io/projects/LLMxCI.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Abstract: Collective intelligence underpins the success of groups, organizations, markets and societies. Through distributed cognition and coordination, collectives can achieve outcomes that exceed the capabilities of individuals—even experts—resulting in improved accuracy and novel capabilities. Often, collective intelligence is supported by information technology, such as online prediction markets that elicit the ‘wisdom of crowds’, online forums that structure collective deliberation or digital platforms that crowdsource knowledge from the public. Large language models, however, are transforming how information is aggregated, accessed and transmitted online. Here we focus on the unique opportunities and challenges this transformation poses for collective intelligence. We bring together interdisciplinary perspectives from industry and academia to identify potential benefits, risks, policy-relevant considerations and open research questions, culminating in a call for a closer examination of how large language models affect humans’ ability to collectively tackle complex problems.</p>
+<p><a href="https://www.nature.com/articles/s41562-024-01959-9">LINK</a></p>
+<p>Citation: Burton, J. W., Lopez-Lopez, E., Hechtlinger, S., Rahwan, Z., Aeschbach, S., Bakker, M. A., <strong>Berger, J.,</strong> … &amp; Hertwig, R. (2024). How large language models can reshape collective intelligence. <em>Nature Human Behaviour</em>.</p>
+
+
+
+ ]]></description>
+  <guid>julian-berger.github.io/projects/LLMxCI.html</guid>
+  <pubDate>Sun, 13 Jul 2025 10:00:32 GMT</pubDate>
+  <media:content url="julian-berger.github.io/images/LLMxCI.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>Interpretable Credit Scores</title>
@@ -57,7 +155,7 @@
 
 
 <p>This project evaluated several credit scores in the lab and in the field WITH consumers. The scores we built to be accurate, fair and transparent.</p>
-<p>This project is in cooperation with Germany’s largest credit scoring agency. Due to NDA and ongoing developments, public announcements and pre-prints of the research is not to be expected before May 2025.</p>
+<p>This project is in cooperation with Germany’s largest credit scoring agency. Due to NDA and ongoing developments, public announcements and pre-prints of the research is not to be expected before November 2025.</p>
 <p>If you want to know more, shoot me an email and we can have a chat.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -69,7 +167,7 @@
 
  ]]></description>
   <guid>julian-berger.github.io/projects/credit.html</guid>
-  <pubDate>Sun, 22 Sep 2024 14:30:10 GMT</pubDate>
+  <pubDate>Sun, 13 Jul 2025 10:00:32 GMT</pubDate>
   <media:content url="julian-berger.github.io/images/credit.webp" medium="image" type="image/webp"/>
 </item>
 </channel>

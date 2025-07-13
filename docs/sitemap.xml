@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>julian-berger.github.io/index.html</loc>
-    <lastmod>2024-09-22T14:28:40.009Z</lastmod>
+    <lastmod>2025-07-13T09:52:49.427Z</lastmod>
   </url>
   <url>
     <loc>julian-berger.github.io/blog/template.html</loc>
@@ -10,22 +10,46 @@
   </url>
   <url>
     <loc>julian-berger.github.io/projects/credit.html</loc>
-    <lastmod>2024-09-22T13:58:40.794Z</lastmod>
+    <lastmod>2025-07-10T07:28:35.384Z</lastmod>
   </url>
   <url>
     <loc>julian-berger.github.io/projects/hct.html</loc>
-    <lastmod>2024-09-22T13:43:13.247Z</lastmod>
+    <lastmod>2025-07-10T07:29:51.521Z</lastmod>
   </url>
   <url>
     <loc>julian-berger.github.io/projects/index.html</loc>
-    <lastmod>2024-09-22T13:33:31.750Z</lastmod>
+    <lastmod>2024-09-22T13:33:31.000Z</lastmod>
   </url>
   <url>
     <loc>julian-berger.github.io/projects/crowd_stop.html</loc>
-    <lastmod>2024-09-22T13:33:20.852Z</lastmod>
+    <lastmod>2024-09-22T13:33:20.000Z</lastmod>
   </url>
   <url>
     <loc>julian-berger.github.io/blog/index.html</loc>
     <lastmod>2024-08-09T07:19:48.000Z</lastmod>
+  </url>
+  <url>
+    <loc>julian-berger.github.io/about.html</loc>
+    <lastmod>2024-09-22T17:21:06.784Z</lastmod>
+  </url>
+  <url>
+    <loc>julian-berger.github.io/projects/debt.html</loc>
+    <lastmod>2024-09-22T17:29:46.461Z</lastmod>
+  </url>
+  <url>
+    <loc>julian-berger.github.io/projects/LLM_humans.html</loc>
+    <lastmod>2025-07-13T10:00:12.979Z</lastmod>
+  </url>
+  <url>
+    <loc>julian-berger.github.io/projects/LLMxCI.html</loc>
+    <lastmod>2024-09-22T17:42:35.000Z</lastmod>
+  </url>
+  <url>
+    <loc>julian-berger.github.io/projects/hct_vs_ai.html</loc>
+    <lastmod>2025-07-10T07:35:36.140Z</lastmod>
+  </url>
+  <url>
+    <loc>julian-berger.github.io/projects/ai_learning.html</loc>
+    <lastmod>2025-07-13T09:58:54.724Z</lastmod>
   </url>
 </urlset>

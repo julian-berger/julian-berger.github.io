@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Should we rely on AI advice or rather combine indepenent human and AI decisions?">
 
-<title>Projects – Julian Berger | collective intelligence | wisdom of crowds | machine learning</title>
+<title>AI advice or independent aggregation? – Julian Berger | collective intelligence | wisdom of crowds | machine learning</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -67,68 +66,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="Julian Berger | collective intelligence | wisdom of crowds | machine learning" href="index.xml" data-external="1"></head>
+</head>
 
 <body class="nav-sidebar docked nav-fixed">
 
@@ -150,7 +91,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/index.html">Projects</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/index.html">Projects</a></li><li class="breadcrumb-item"><a href="../projects/hct_vs_ai.html">Independent aggregation is better than AI advice</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -177,7 +118,7 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../projects/index.html" class="sidebar-item-text sidebar-link active">
+            <a href="../projects/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -204,7 +145,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/hct_vs_ai.html" class="sidebar-item-text sidebar-link">
+  <a href="../projects/hct_vs_ai.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Independent aggregation is better than AI advice</span></a>
   </div>
 </li>
@@ -243,11 +184,16 @@ window.Quarto = {
 <!-- main -->
 <main class="content column-page-right" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/index.html">Projects</a></li><li class="breadcrumb-item"><a href="../projects/hct_vs_ai.html">Independent aggregation is better than AI advice</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">AI advice or independent aggregation?</h1>
 </div>
 
+<div>
+  <div class="description">
+    <p>Should we rely on AI advice or rather combine indepenent human and AI decisions?</p>
+  </div>
+</div>
 
 
 <div class="quarto-title-meta column-page-right">
@@ -262,193 +208,12 @@ window.Quarto = {
 </header>
 
 
+<p>Abstract: Artificial Intelligence (AI) systems are usually deployed as advisers: a system suggests a decision that a human may accept or reject. This influence of humans during their decision making process hinders a clear attribution of errors to human or machine and risks human automation bias and potentially deskilling humans. We evaluate an alternative to combining human and AI decisions: the hybrid confirmation tree — built on the principle of independent judgments. The hybrid confirmation tree elicits one human and one AI choice independent of each other. When they agree, that decision is accepted. If not, a second human breaks the tie. We compare this approach to the AI-as-advisor approach across 10 data sets, from a wide range of domains, including medical diagnostic and misinformation judgments. The hybrid confirmation tree outperforms the AI-as-advisor approach in all data sets. The benefit stems from the hybrid confirmation tree capturing a larger share of correct AI choices than advice-takers. Similar performance gains above AI-as-advice were observed even when AI advice was explainable unless humans alone were at chance performance. While the hybrid confirmation tree may cost more human decisions, this additional cost can be offset by the increased accuracy we observe. Overall, hybrid confirmation trees provide a robust, accurate and transparent alternative to the AI-advice, and offers a simple mechanism to tap into the wisdom of hybrid crowds.</p>
+<p><img src="../images/fig_hct_advice.png" class="img-fluid"></p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1752132936140" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
-<a href="../projects/hct_vs_ai.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/fig_hct_advice.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-AI advice or independent aggregation?
-</h5>
-<div class="card-text listing-description">
-<p>Should we rely on AI advice or rather combine indepenent human and AI decisions?</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1752400734724" data-listing-reading-time-sort="2" data-listing-word-count-sort="284">
-<a href="../projects/ai_learning.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/learning.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Human learning creates human-AI synergy
-</h5>
-<div class="card-text listing-description">
-<p>We really should be studying human-AI systems differently.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1727026186000" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
-<a href="../projects/debt.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/debt.webp" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Household debt and repayment behavior
-</h5>
-<div class="card-text listing-description">
-<p>How can we characterize debtors based on their behavior?</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1752132591521" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
-<a href="../projects/hct.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/hct_vs_advice.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Hybrid Confirmation Trees
-</h5>
-<div class="card-text listing-description">
-<p>Should we rely on AI advice or rather combine indepenent human and AI decisions?</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1727012000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="188">
-<a href="../projects/crowd_stop.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/crowd_stop_Fig2.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Efficient Crowds
-</h5>
-<div class="card-text listing-description">
-<p>How to use the wisdom of crowds more efficiently and improve decision making across 7 domains.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1752400812979" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
-<a href="../projects/LLM_humans.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/complementarity_physicians_LLMs.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-LLM-human ensembles
-</h5>
-<div class="card-text listing-description">
-<p>Can we leverage complementary strengths of humans and LLMs in differential diagnoses?</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1727026955000" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
-<a href="../projects/LLMxCI.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/LLMxCI.webp" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How large language models can reshape collective intelligence
-</h5>
-<div class="card-text listing-description">
-<p>How could large language models influence collective intelligence?</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1752132515384" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
-<a href="../projects/credit.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../images/credit.webp" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Interpretable Credit Scores
-</h5>
-<div class="card-text listing-description">
-<p>Building consumer friendly credit scores. Field and lab evidence.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

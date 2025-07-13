@@ -34,12 +34,23 @@ website:
       - section: "Projects"
         href: projects/index.qmd
         contents:
-          - text: "Efficient Crowds"
-            href: projects/crowd_stop.qmd
+          - text: "LLM and Collective Intelligence"
+            href: projects/LLMxCI.qmd
+          - text: "Human-LLM Ensembles"
+            href: projects/llm_humans.qmd
           - text: "Hybrid Confirmation Trees"
             href: projects/hct.qmd
+          - text: "Independent aggregation is better than AI advice"
+            href: projects/hct_vs_ai.qmd
+          - text: "Human learning and AI"
+            href: projects/ai_learning.qmd
+            
+          - text: "Efficient Crowds"
+            href: projects/crowd_stop.qmd
           - text: "Interpretable Credit Scores"
             href: projects/credit.qmd
+          - text: "Debtor Behavior"
+            href: projects/debt.qmd
   page-footer:
     left: |
       <br>

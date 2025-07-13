@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Should we rely on AI advice or rather combine indepenent human and AI decisions?">
 
-<title>Julian Berger | collective intelligence | wisdom of crowds | machine learning - Hybrid Confirmation Trees</title>
+<title>Hybrid Confirmation Trees – Julian Berger | collective intelligence | wisdom of crowds | machine learning</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -88,13 +117,13 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/index.html">Projects</a></li><li class="breadcrumb-item"><a href="../projects/hct.html">Hybrid Confirmation Trees</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -120,15 +149,21 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../projects/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/crowd_stop.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Efficient Crowds</span></a>
+  <a href="../projects/LLMxCI.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LLM and Collective Intelligence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/llm_humans.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Human-LLM Ensembles</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -139,8 +174,32 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../projects/hct_vs_ai.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Independent aggregation is better than AI advice</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/ai_learning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Human learning and AI</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/crowd_stop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Efficient Crowds</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../projects/credit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Interpretable Credit Scores</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/debt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Debtor Behavior</span></a>
   </div>
 </li>
       </ul>
@@ -178,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Abstract: We study hybrid confirmation trees, a simple heuristic for producing hybrid intelligence in melanoma classification. Hybrid confirmation trees first elicit the decision of one human expert and one algorithm. Whenever the two agree a decision is immediately made. In case of disagreement, a second human expert is called in to break the tie. We apply this approach to data on skin cancer detection in dermoscopic and non-dermoscopic images across two studies. Study 1 establishes our approach to be a powerful alternative to human baselines, even outperforming up to three humans combined at lower costs. Study 2 compares hybrid confirmation trees against the industry-standard: humans taking AI advice. Crucially, we find humans supported by AI advice perform worse than hybrid confirmation trees. We attribute this benefit over human-only decision making and AI advice to uncorrelated errors between independent decisions by human and AI. AI advice lead to humans copying AI mistakes while hybrid confirmation trees already exhibit a generally lower agreement on AI mistakes, which can be successfully resolved by human tie breaking. Taken together, our results highlight the potential for combining independent choices of humans and AI for medical diagnostics and beyond as hybrid confirmation trees are a simple but powerful general-purpose method for arbitrating choices.</p>
+<p>Abstract: Combining human and artificial intelligence (AI) provides new avenues for improving decision accuracy, but effective and cost-efficient integration strategies that maintain human involvement in the decision process remain crucial. This paper introduces and comprehensively evaluates the Hybrid Confirmation Tree (HCT), a simple sequential heuristic where an initial human decision is confirmed by an AI and disagreement triggers a second human tie-breaker. Through analytical derivations, we show that the HCT can match and exceed the accuracy of a three-person human majority vote while requiring fewer human inputs, particularly when AI accuracy is comparable to or exceeds human accuracy. Extensive numerical simulations further explore the HCT’s performance landscape, demonstrating that its ability to achieve complementarity — outperforming both individual humans, machines and the majority vote — is maximized when human and AI accuracies are similar and their decisions are not overly correlated. Empirical re-analysis of six diverse real-world data sets (skin cancer diagnosis, deepfake detection, geopolitical forecasting, criminal re-arrest) validates these findings, showing the HCT improves accuracy over the majority vote by up to 10 percentage points while reducing the cost of decision making by 28-44<span class="math inline">\(\%\)</span>. Furthermore, the HCT provides greater flexibility in navigating true and false positive trade-offs compared to fixed human-only heuristics like hierarchies and polyarchies. The HCT emerges as a practical, efficient, and robust heuristic for hybrid collective intelligence while maintaining human agency.</p>
 <p><img src="../images/hct_1.png" class="img-fluid"></p>
 <p><img src="../images/hct_vs_advice.png" class="img-fluid"></p>
 
@@ -220,18 +279,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -263,7 +311,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("julian-berger\.github\.io");
@@ -271,7 +341,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
