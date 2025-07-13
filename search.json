@@ -1,0 +1,123 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": " ",
+    "section": "",
+    "text": "HYBRID INTELLIGENCE   |  HUMAN-AI ORGANIZATIONS   |   DECISION SUPPORT   |   ML\n\n\n\n\n\n\n\n\n\n\nResearch\nWelcome!\nI work on improving the decision making of individuals, crowds and hybrid human-AI systems. I combine decision making research from psychology and economics with the latest insights from computer science. You can find my projects here.\nI am a postdoctoral researcher at the Center for Adaptive Rationality, Max Planck Institute for Human Development and fellow of the Joachim Herz Foundation.\nMy PhD was funded by the Foundation of German Business (Stiftung der deutschen Wirtschaft). I have received further funding by the Danish Data Science Adacemy and the Joachim Herz Foundation.\n\n\nIndustry\nI also work as a consultant and ML engineer. Here, my focus is on the development of interpretable machine learning models that are accurate, fair and transparent. To that end, I employ a wide suite of model architectures and engage in extensive feature engineering and multi-parameter optimization. It is good fun. In my industry work I often join forces with Simply Rational.\n\n\nLatest updates\n\n[07/25] Submitted my dissertation. Pre-prints are available, just reach out!\n[06/25] Our paper on how to ensemble humans and LLMs for accurate medical diagnoses is out in PNAS!\n[04/25] Our paper on how to use interpretable machine learning models in football was accepted in Science and Medicine in Football.\n[09/24] Our work on LLMs and collective intelligence was published in Nature Human Behavior.\n[09/24] I was awarded a fellowship for interdisciplinary economics by the Joachim Herz Foundation for my work on improving consumers’ ability understand and make changes to their credit scores.\n[07/24] I presented my work on human-AI ensembling for efficient crowd wisdom at Advances in Decision Analysis 2024 Check out the project here.\n[06/24] We uploaded our pre-print on human-LLM ensembles and how their complementary strength improve open-ended differential diagnoses. Read it here.\n[04/24] I visited Odense and Copenhagen thanks to a grant by the Danish Data Science Adacemy to work on human-AI ensembling.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "blog/template.html",
+    "href": "blog/template.html",
+    "title": "Analytical problem solving",
+    "section": "",
+    "text": "Unable to display PDF file. Download instead."
+  },
+  {
+    "objectID": "projects/credit.html",
+    "href": "projects/credit.html",
+    "title": "Interpretable Credit Scores",
+    "section": "",
+    "text": "This project evaluated several credit scores in the lab and in the field WITH consumers. The scores we built to be accurate, fair and transparent.\nThis project is in cooperation with Germany’s largest credit scoring agency. Due to NDA and ongoing developments, public announcements and pre-prints of the research is not to be expected before November 2025.\nIf you want to know more, shoot me an email and we can have a chat.",
+    "crumbs": [
+      "Projects",
+      "Interpretable Credit Scores"
+    ]
+  },
+  {
+    "objectID": "projects/hct.html",
+    "href": "projects/hct.html",
+    "title": "Hybrid Confirmation Trees",
+    "section": "",
+    "text": "Abstract: Combining human and artificial intelligence (AI) provides new avenues for improving decision accuracy, but effective and cost-efficient integration strategies that maintain human involvement in the decision process remain crucial. This paper introduces and comprehensively evaluates the Hybrid Confirmation Tree (HCT), a simple sequential heuristic where an initial human decision is confirmed by an AI and disagreement triggers a second human tie-breaker. Through analytical derivations, we show that the HCT can match and exceed the accuracy of a three-person human majority vote while requiring fewer human inputs, particularly when AI accuracy is comparable to or exceeds human accuracy. Extensive numerical simulations further explore the HCT’s performance landscape, demonstrating that its ability to achieve complementarity — outperforming both individual humans, machines and the majority vote — is maximized when human and AI accuracies are similar and their decisions are not overly correlated. Empirical re-analysis of six diverse real-world data sets (skin cancer diagnosis, deepfake detection, geopolitical forecasting, criminal re-arrest) validates these findings, showing the HCT improves accuracy over the majority vote by up to 10 percentage points while reducing the cost of decision making by 28-44\\(\\%\\). Furthermore, the HCT provides greater flexibility in navigating true and false positive trade-offs compared to fixed human-only heuristics like hierarchies and polyarchies. The HCT emerges as a practical, efficient, and robust heuristic for hybrid collective intelligence while maintaining human agency.",
+    "crumbs": [
+      "Projects",
+      "Hybrid Confirmation Trees"
+    ]
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "AI advice or independent aggregation?\n\n\nShould we rely on AI advice or rather combine indepenent human and AI decisions?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman learning creates human-AI synergy\n\n\nWe really should be studying human-AI systems differently.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHousehold debt and repayment behavior\n\n\nHow can we characterize debtors based on their behavior?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHybrid Confirmation Trees\n\n\nShould we rely on AI advice or rather combine indepenent human and AI decisions?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEfficient Crowds\n\n\nHow to use the wisdom of crowds more efficiently and improve decision making across 7 domains.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLLM-human ensembles\n\n\nCan we leverage complementary strengths of humans and LLMs in differential diagnoses?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow large language models can reshape collective intelligence\n\n\nHow could large language models influence collective intelligence?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInterpretable Credit Scores\n\n\nBuilding consumer friendly credit scores. Field and lab evidence.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "projects/crowd_stop.html",
+    "href": "projects/crowd_stop.html",
+    "title": "Efficient Crowds",
+    "section": "",
+    "text": "Abstract: Efficiently allocating individuals to work on complex decision problems is a key challenge for groups, organizations and societies, and requires navigating a crucial trade-off: increasing the number of individuals working on a task typically increases accuracy but at the expense of higher costs. Research in collective intelligence has proposed a plethora of mechanisms to pool the judgements of independent decision makers for increasing performance. However, these are all static and do not adjust the number of crowd members to the challenge at hand, resulting in high, fixed costs for every decision problem. We develop and test three decision rules that allow to benefit from the wisdom of the crowd adaptively depending on a case’s difficulty. Our rules rely on decision makers’ confidence judgements for stopping crowd growth. Empirical analyses in four real-world domains (cancer diagnoses, forecasting, false news classification, and criminology) using seven data sets find that our adaptive decision rules can achieve equal (or higher) accuracy compared to widely-used static crowd aggregators while using fewer individuals. Our findings present easily applicable decision guidelines ready to be employed in practice to substantially boost the efficiency of crowds.",
+    "crumbs": [
+      "Projects",
+      "Efficient Crowds"
+    ]
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog posts",
+    "section": "",
+    "text": "Analytical problem solving\n\n\nbased on causal, correlational and deductive models\n\n\n\nenglish\n\n\nmodeling\n\n\n\nI co-authored a peer-reviewed paper that compares the different modeling approaches for analytical problem solving. \n\n\n\n\n\nMar 2022\n\n\nDaniel Kapitan\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "projects/LLM_humans.html",
+    "href": "projects/LLM_humans.html",
+    "title": "LLM-human ensembles",
+    "section": "",
+    "text": "Abstract: AI systems, particularly large language models (LLMs), are increasingly being employed in high-stakes decisions that impact both individuals and society at large, often without adequate safeguards to ensure safety, quality, and equity. Yet LLMs hallucinate, lack common sense, and are biased—shortcomings that may reflect LLMs’ inherent limitations and thus may not be remedied by more sophisticated architectures, more data, or more human feedback. Relying solely on LLMs for complex, high-stakes decisions is therefore problematic. Here, we present a hybrid collective intelligence system that mitigates these risks by leveraging the complementary strengths of human experience and the vast information processed by LLMs. We apply our method to open-ended medical diagnostics, combining 40,762 differential diagnoses made by physicians with the diagnoses of five state-of-the art LLMs across 2,133 text-based medical case vignettes. We show that hybrid collectives of physicians and LLMs outperform both single physicians and physician collectives, as well as single LLMs and LLM ensembles. This result holds across a range of medical specialties and professional experience and can be attributed to humans’ and LLMs’ complementary contributions that lead to different kinds of errors. Our approach highlights the potential for collective human and machine intelligence to improve accuracy in complex, open-ended domains like medical diagnostics.\nPAPER\nPREPRINT"
+  },
+  {
+    "objectID": "projects/debt.html",
+    "href": "projects/debt.html",
+    "title": "Household debt and repayment behavior",
+    "section": "",
+    "text": "We partner with coeo to investigate debtor behavior across 3.4 million debtors in Germany.\nResults are work in progress but you can shoot me an email and we talk about behavioral characteristics of people with varying amounts of debt and how to identify early warning signals of repayment struggles."
+  },
+  {
+    "objectID": "projects/LLMxCI.html",
+    "href": "projects/LLMxCI.html",
+    "title": "How large language models can reshape collective intelligence",
+    "section": "",
+    "text": "Abstract: Collective intelligence underpins the success of groups, organizations, markets and societies. Through distributed cognition and coordination, collectives can achieve outcomes that exceed the capabilities of individuals—even experts—resulting in improved accuracy and novel capabilities. Often, collective intelligence is supported by information technology, such as online prediction markets that elicit the ‘wisdom of crowds’, online forums that structure collective deliberation or digital platforms that crowdsource knowledge from the public. Large language models, however, are transforming how information is aggregated, accessed and transmitted online. Here we focus on the unique opportunities and challenges this transformation poses for collective intelligence. We bring together interdisciplinary perspectives from industry and academia to identify potential benefits, risks, policy-relevant considerations and open research questions, culminating in a call for a closer examination of how large language models affect humans’ ability to collectively tackle complex problems.\nLINK\nCitation: Burton, J. W., Lopez-Lopez, E., Hechtlinger, S., Rahwan, Z., Aeschbach, S., Bakker, M. A., Berger, J., … & Hertwig, R. (2024). How large language models can reshape collective intelligence. Nature Human Behaviour.",
+    "crumbs": [
+      "Projects",
+      "LLM and Collective Intelligence"
+    ]
+  },
+  {
+    "objectID": "projects/hct_vs_ai.html",
+    "href": "projects/hct_vs_ai.html",
+    "title": "AI advice or independent aggregation?",
+    "section": "",
+    "text": "Abstract: Artificial Intelligence (AI) systems are usually deployed as advisers: a system suggests a decision that a human may accept or reject. This influence of humans during their decision making process hinders a clear attribution of errors to human or machine and risks human automation bias and potentially deskilling humans. We evaluate an alternative to combining human and AI decisions: the hybrid confirmation tree — built on the principle of independent judgments. The hybrid confirmation tree elicits one human and one AI choice independent of each other. When they agree, that decision is accepted. If not, a second human breaks the tie. We compare this approach to the AI-as-advisor approach across 10 data sets, from a wide range of domains, including medical diagnostic and misinformation judgments. The hybrid confirmation tree outperforms the AI-as-advisor approach in all data sets. The benefit stems from the hybrid confirmation tree capturing a larger share of correct AI choices than advice-takers. Similar performance gains above AI-as-advice were observed even when AI advice was explainable unless humans alone were at chance performance. While the hybrid confirmation tree may cost more human decisions, this additional cost can be offset by the increased accuracy we observe. Overall, hybrid confirmation trees provide a robust, accurate and transparent alternative to the AI-advice, and offers a simple mechanism to tap into the wisdom of hybrid crowds.",
+    "crumbs": [
+      "Projects",
+      "Independent aggregation is better than AI advice"
+    ]
+  },
+  {
+    "objectID": "projects/ai_learning.html",
+    "href": "projects/ai_learning.html",
+    "title": "Human learning creates human-AI synergy",
+    "section": "",
+    "text": "It is currently not well understood when and why combining humans and artificial intelligence (AI) produces better results than humans or AI alone. Here we argue that human learning is a crucial, but overlooked, facilitator of human-AI synergy.\nRecently, Vaccaro et al. (2024) conducted a preregistered systematic review and meta-analysis of 74 studies that compared the performance of humans, AI systems, and their combination on the same task. On average, the human-AI combination resulted in worse performance than just relying on whichever of the two—the human or the AI—was better on its own. While they identified several facilitators of positive human–AI synergy (e.g., when humans working alone outperform AI), other, plausible moderators (e.g., AI explanations) could not explain synergy differences across studies.\nYet, we argue that there is one hidden dimension in these studies that is not only overlooked by Vaccaro et al. but the wider field on human computer interaction and that is the human capability for learning from feedback. First, we lay out the theory of how and why human learning can improve human-AI synergy. Next, we re-analyse the studies covered in Vaccaro et al. and show that only 10 out of 74 studies provide humans with feedback. Investigating another review by Lai et al. (2019) paints the same picture as only 5 of 124 studies provide feedback. Last, we conduct a series of meta-analyses and conclude that studies that allow humans to learn appropriate use of AI from feedback tend to report positive human-AI synergy—especially when paired with AI explanations. We argue that neglecting human learning leads the field to underappreciate the potential for human–AI synergy. We therefore call for focusing on human learning to better understand and foster successful human–AI collaboration.",
+    "crumbs": [
+      "Projects",
+      "Human learning and AI"
+    ]
+  }
+]
