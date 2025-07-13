@@ -2,14 +2,14 @@
   {
     "listing": "/projects/index.html",
     "items": [
+      "/projects/hct_vs_ai.html",
+      "/projects/ai_learning.html",
+      "/projects/debt.html",
+      "/projects/hct.html",
+      "/projects/crowd_stop.html",
       "/projects/LLM_humans.html",
       "/projects/LLMxCI.html",
-      "/projects/hct_vs_ai.html",
-      "/projects/hct.html",
-      "/projects/ai_learning.html",
-      "/projects/credit.html",
-      "/projects/debt.html",
-      "/projects/crowd_stop.html"
+      "/projects/credit.html"
     ]
   },
   {
