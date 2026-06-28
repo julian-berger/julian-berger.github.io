@@ -11,6 +11,7 @@ format:
  ::: {.container-fluid} 
 --->
 ```
+
 ```{=html}
 <div class="p-5 mb-4 bg-light rounded-3 bgimg">
   <br><br><br><br>
@@ -18,9 +19,6 @@ format:
     <h1 class="display-5 fw-bold"> <br Berger></h1>
   </div>
 </div>
-<p class="lead">
-   <small class="text-hero">HYBRID INTELLIGENCE &emsp; | &emsp;HUMAN-AI ORGANIZATIONS &emsp; | &emsp; DECISION SUPPORT &emsp; | &emsp; ML</small>
-</p>
 <style type="text/css">
 .lead {
     font-family: "Zilla Slab";
@@ -29,9 +27,10 @@ format:
 
 .bgimg {
   background-image: url('images/sep24.jpg');
-background-size: 800px;
+background-size: 750px;
+min-height: 506px;
 background-repeat: no-repeat;
-background-position: center;
+background-position: center top;
 }
 .hero-quote {
   font-family: "Zilla Slab";
@@ -46,14 +45,16 @@ background-position: center;
 }
 </style>
 ```
+
 ```{=html}
 <!---
  ::: 
 --->
 ```
+
 <br>
 
-::: grid
+:::::: grid
 ::: g-col-1
 :::
 
@@ -62,38 +63,21 @@ background-position: center;
 
 Welcome!
 
-I work on improving the decision making of individuals, crowds and hybrid human-AI systems. I combine decision making research from psychology and economics with the latest insights from computer science. [You can find my projects here.](projects/index.qmd)
+My name is Julian Berger. I am an incoming Assistant Professor in the [Faculty of Economics and Business at Universitat Pompeu Fabra](https://www.upf.edu/en/web/econ). My position starts in September 2026.
 
-I am a postdoctoral researcher at the [Center for Adaptive Rationality, Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality) and fellow of the Joachim Herz Foundation.
+Currently, I am a postdoctoral scholar at the University of Southern Denmark in the [Strategic and Organization Design](https://www.sdu.dk/en/forskning/forskningsenheder/samf/immsaml/forskningsgrupper/sod) group.
 
-My PhD was funded by the [Foundation of German Business (Stiftung der deutschen Wirtschaft)](https://www.sdw.org/index.html). I have received further funding by the [Danish Data Science Adacemy](https://ddsa.dk/) and the [Joachim Herz Foundation](https://www.joachim-herz-stiftung.de/en/research/promotion-of-young-talents/add-on-fellowships-for-interdisciplinary-economics).
+Previously, I was at the [Center for Adaptive Rationality, Max Planck Institute for Human Development](https://www.mpib-berlin.mpg.de/research/research-centers/adaptive-rationality) where I finished my PhD in April 2026. My PhD was funded by the [Foundation of German Business (Stiftung der deutschen Wirtschaft)](https://www.sdw.org/index.html). I have received further funding by the [Danish Data Science Adacemy](https://ddsa.dk/) and the [Joachim Herz Foundation](https://www.joachim-herz-stiftung.de/en/research/promotion-of-young-talents/add-on-fellowships-for-interdisciplinary-economics).
 
+Generally, I work on improving the decision making of individuals, crowds and hybrid human-AI systems. I combine decision making research from psychology and economics with the latest insights from computer science. [You can find my projects here](projects/index.qmd) but [google scholar may be more up to date.](https://scholar.google.com/citations?user=F3aVr0QAAAAJ&hl=en)
 
 #### Industry
 
-I also work as a consultant and ML engineer. Here, my focus is on the development of interpretable machine learning models that are accurate, fair and transparent. To that end, I employ a wide suite of model architectures and engage in extensive feature engineering and multi-parameter optimization. It is good fun. In my industry work I often join forces with [Simply Rational](https://www.simplyrational.de/en/). 
+Together with Philip Jakob, I founded [RigorLabs](https://rigor.me/), a tech R&D firm that develops tool for improving the rigor and robustness of science.
 
-#### Latest updates
-
--   \[07/25\] Submitted my dissertation. Pre-prints are available, just reach out! 
-
--   \[06/25\] Our [paper](https://www.pnas.org/doi/full/10.1073/pnas.2426153122) on how to ensemble humans and LLMs for accurate medical diagnoses is out in PNAS! 
-
--   \[04/25\] Our [paper](https://www.tandfonline.com/doi/full/10.1080/24733938.2025.2517056) on how to use interpretable machine learning models in football was accepted in Science and Medicine in Football. 
-
--   \[09/24\] Our work on LLMs and collective intelligence was published in [Nature Human Behavior](https://www.nature.com/articles/s41562-024-01959-9).
-
--   \[09/24\] I was awarded a fellowship for interdisciplinary economics by the [Joachim Herz Foundation](https://www.joachim-herz-stiftung.de/en/research/promotion-of-young-talents/add-on-fellowships-for-interdisciplinary-economics) for my work on improving consumers' ability understand and make changes to their credit scores.
-
--   \[07/24\] I presented my work on human-AI ensembling for efficient crowd wisdom at Advances in Decision Analysis 2024 [Check out the project here](projects/hct.qmd).
-
--   \[06/24\] We uploaded our pre-print on human-LLM ensembles and how their complementary strength improve open-ended differential diagnoses. [Read it here.](https://arxiv.org/abs/2406.14981)
-
--   \[04/24\] I visited Odense and Copenhagen thanks to a grant by the [Danish Data Science Adacemy](https://ddsa.dk/) to work on human-AI ensembling. 
-
-
+During my PhD, I have also worked as a consultant and ML engineer. Here, my focus was on the development of interpretable machine learning models that are accurate, fair and transparent. It is good fun. In my industry work I often join forces with [Simply Rational](https://www.simplyrational.de/en/).
 :::
 
 ::: g-col-1
 :::
-:::
+::::::

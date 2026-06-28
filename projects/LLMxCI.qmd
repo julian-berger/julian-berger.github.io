@@ -1,0 +1,13 @@
+---
+title: How large language models can reshape collective intelligence
+description: |
+    How could large language models influence collective intelligence?
+image: /images/LLMxCI.webp
+#categories: [english, data architecture, healthcare]
+---
+
+Abstract: Collective intelligence underpins the success of groups, organizations, markets and societies. Through distributed cognition and coordination, collectives can achieve outcomes that exceed the capabilities of individuals—even experts—resulting in improved accuracy and novel capabilities. Often, collective intelligence is supported by information technology, such as online prediction markets that elicit the ‘wisdom of crowds’, online forums that structure collective deliberation or digital platforms that crowdsource knowledge from the public. Large language models, however, are transforming how information is aggregated, accessed and transmitted online. Here we focus on the unique opportunities and challenges this transformation poses for collective intelligence. We bring together interdisciplinary perspectives from industry and academia to identify potential benefits, risks, policy-relevant considerations and open research questions, culminating in a call for a closer examination of how large language models affect humans’ ability to collectively tackle complex problems.
+
+[LINK](https://www.nature.com/articles/s41562-024-01959-9)
+
+Citation: Burton, J. W., Lopez-Lopez, E., Hechtlinger, S., Rahwan, Z., Aeschbach, S., Bakker, M. A., **Berger, J.,** ... & Hertwig, R. (2024). How large language models can reshape collective intelligence. *Nature Human Behaviour*.

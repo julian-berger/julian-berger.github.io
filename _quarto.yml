@@ -37,7 +37,7 @@ website:
           - text: "LLM and Collective Intelligence"
             href: projects/LLMxCI.qmd
           - text: "Human-LLM Ensembles"
-            href: projects/llm_humans.qmd
+            href: projects/LLM_humans.qmd
           - text: "Hybrid Confirmation Trees"
             href: projects/hct.qmd
           - text: "Independent aggregation is better than AI advice"
@@ -51,6 +51,8 @@ website:
             href: projects/credit.qmd
           - text: "Debtor Behavior"
             href: projects/debt.qmd
+      - text: "Google Scholar"
+        href: "https://scholar.google.com/citations?user=F3aVr0QAAAAJ&hl=en"
   page-footer:
     left: |
       <br>

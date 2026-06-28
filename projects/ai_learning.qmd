@@ -1,0 +1,18 @@
+---
+title: Human learning creates human-AI synergy
+description: |
+    We really should be studying human-AI systems differently.
+image: /images/learning.png
+#categories: [english, data architecture, healthcare]
+---
+
+
+It is currently not well understood when and why combining humans and artificial intelligence (AI) produces better results than humans or AI alone. Here we argue that human learning is a crucial, but overlooked, facilitator of human-AI synergy. 
+
+Recently, Vaccaro et al. (2024) conducted a preregistered systematic review and meta-analysis of 74 studies that compared the performance of humans, AI systems, and their combination on the same task.
+On average, the human-AI combination resulted in worse performance than just relying on whichever of the two---the human or the AI---was better on its own. While they identified several facilitators of positive human--AI synergy (e.g., when humans working alone outperform AI), other, plausible moderators (e.g., AI explanations) could not explain synergy differences across studies. 
+
+Yet, we argue that there is one hidden dimension in these studies that is not only overlooked by Vaccaro et al. but the wider field on human computer interaction and that is the human capability for learning from feedback. First, we lay out the theory of how and why human learning can improve human-AI synergy. Next, we re-analyse the studies covered in Vaccaro et al. and show that only 10 out of 74 studies provide humans with feedback. Investigating another review by Lai et al. (2019) paints the same picture as only 5 of 124 studies provide feedback. Last, we conduct a series of meta-analyses and conclude that studies that allow humans to learn appropriate use of AI from feedback tend to report positive human-AI synergy---especially when paired with AI explanations. 
+We argue that neglecting human learning leads the field to underappreciate the potential for human--AI synergy. We therefore call for focusing on human learning to better understand and foster successful human--AI collaboration.
+
+![](/images/learning.png){fig-align="center"}
